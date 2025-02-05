@@ -2,7 +2,7 @@
 
 AVISO
 ---
-A maioria das bibliotecas foram criadas com foco em necessidades de projetos pessoas especificos, sendo assim, muitas funções que seriam esperadas pode não estar implementadas.  
+A maioria das bibliotecas foram criadas com foco em necessidades de projetos pessoais especificos, sendo assim, muitas funções que seriam esperadas pode não estar implementadas.  
 
 ## Strings
 Biblioteca para lidar com Strings de forma mais simplificida. Convertendo C Strings (strings finalizadas com '\0') para uma estrutura. 
