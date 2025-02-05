@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DFiles_EXPORTS
 
-C_INCLUDES = -I"/home/marcelo/Documentos/C/My LIbs/Files/libs"
+C_INCLUDES = -I/home/marcelo/Documentos/C-Libs/Files/libs
 
 C_FLAGS = -fPIC -Wall -Werror
 

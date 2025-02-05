@@ -389,24 +389,62 @@ int array_to_string() {
     return TRUE;
 }
 
+int contains_test() {
+    ArrayString *as = newArrayString(10);
+
+    int cn = contains(as, CStringToString("teste -1"));
+    if (cn != -1) {
+        printf("Cn should be -1\n");
+        return FALSE;
+    }
+
+    ASPush(as, CStringToString("teste 0"));
+    ASPush(as, CStringToString("teste 1"));
+    ASPush(as, CStringToString("teste 2"));
+    ASPush(as, CStringToString("teste 3"));
+    ASPush(as, CStringToString("teste 4"));
+    ASPush(as, CStringToString("teste 5"));
+
+    int c = contains(as, CStringToString("teste 0"));
+    if (c != 0) {
+        printf("C should be 0\n");
+        return FALSE;
+    }
+
+    int c2 = contains(as, CStringToString("teste 5"));
+    if (c2 != 5) {
+        printf("C2 should be 5\n");
+        return FALSE;
+    }
+
+    int c3 = contains(as, CStringToString("teste -1"));
+    if (c3 != -1) {
+        printf("C3 should be -1\n");
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 // ===============================================
 // ============== RUNNING ALL TESTS ============== 
 // ===============================================
 
 int main() {
     printf("RUNNING Strings Tests ======================================\n");
-    runTest(*cstring_to_string, 1, "CString to String");
-    runTest(*StringCMP, 2, "Compare Strings");
-    runTest(*slice, 3, "Slice");
-    runTest(*trim_left_test, 4, "Trim Left");
-    runTest(*trim_right_test, 5, "Trim Right");
-    runTest(*trim_test, 6, "Trim");
-    runTest(*remove_spaces_test, 7, "Remove Spaces");
-    runTest(*split_test, 8, "Split");
+    runTest(&cstring_to_string, 1, "CString to String");
+    runTest(&StringCMP, 2, "Compare Strings");
+    runTest(&slice, 3, "Slice");
+    runTest(&trim_left_test, 4, "Trim Left");
+    runTest(&trim_right_test, 5, "Trim Right");
+    runTest(&trim_test, 6, "Trim");
+    runTest(&remove_spaces_test, 7, "Remove Spaces");
+    runTest(&split_test, 8, "Split");
 
     printf("\n");
     printf("RUNNING Array Strings Tests ================================\n");
-    runTest(*create_array_string, 1, "Create Array String");
-    runTest(*push, 2, "Push to Array String");
-    runTest(array_to_string, 3, "Array String to String");
+    runTest(&create_array_string, 1, "Create Array String");
+    runTest(&push, 2, "Push to Array String");
+    runTest(&array_to_string, 3, "Array String to String");
+    runTest(&contains_test, 4, "Contains Test");
 }

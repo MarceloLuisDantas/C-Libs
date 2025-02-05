@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/marcelo/Documentos/C/My LIbs/Files"
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/C-Libs/Files
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/marcelo/Documentos/C/My LIbs/Files"
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/C-Libs/Files
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Files.dir/clean
 CMakeFiles/Files.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Files.dir/build.make CMakeFiles/Files.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Files.dir/build.make CMakeFiles/Files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/marcelo/Documentos/C/My LIbs/Files/CMakeFiles" --progress-num=1,2 "Built target Files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marcelo/Documentos/C-Libs/Files/CMakeFiles --progress-num=1,2 "Built target Files"
 .PHONY : CMakeFiles/Files.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marcelo/Documentos/C/My LIbs/Files/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcelo/Documentos/C-Libs/Files/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Files.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/marcelo/Documentos/C/My LIbs/Files/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcelo/Documentos/C-Libs/Files/CMakeFiles 0
 .PHONY : CMakeFiles/Files.dir/rule
 
 # Convenience name for target.

@@ -1,5 +1,5 @@
 CMakeFiles/StringTests.dir/tests/tests.c.o: \
- /home/marcelo/Documentos/C/My\ LIbs/Strings/tests/tests.c \
+ /home/marcelo/Documentos/C-Libs/Strings/tests/tests.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,7 +23,7 @@ CMakeFiles/StringTests.dir/tests/tests.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/marcelo/Documentos/C/My\ LIbs/Strings/tests/../src/Strings.h \
+ /home/marcelo/Documentos/C-Libs/Strings/tests/../src/Strings.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

@@ -311,4 +311,17 @@ char *StringToCString(String *s) {
     return cs;
 }
 
+/*  Return the index of a value in a Array
+    Returns -1 if the item doesn't exist
+*/
+int ascontains(ArrayString *as, String *s) {
+    if (as->len == 0)
+        return -1;
 
+    for (int i = 0; i < as->len; i++) {
+        if (StringCmp(as->array[i], s))
+            return i;
+    }
+
+    return -1;
+}

@@ -179,3 +179,20 @@ ArrayString *toArray(LinkedList *l) {
 
     return as;
 }
+
+/*  Checks if a element exist in the LinkedList and returns the idnex
+    Returns -1 if the item doesn't exist
+*/
+int contains(LinkedList *l, String *v) {
+    if (l->len == 0)
+        return -1;
+
+    Node *sup = l->start;
+    for (int i = 0; i < l->len; i++) {
+        if (StringCmp(v, sup->value)) 
+            return i;
+        sup = sup->next;
+    }
+
+    return -1;
+}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/marcelo/Documentos/C/My LIbs/Strings"
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/C-Libs/Strings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/marcelo/Documentos/C/My LIbs/Strings"
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/C-Libs/Strings
 
 # Utility rule file for ExperimentalStart.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd "/home/marcelo/Documentos/C/My LIbs/Strings" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/marcelo/Documentos/C-Libs/Strings && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

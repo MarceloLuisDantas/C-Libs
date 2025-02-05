@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/marcelo/Documentos/C/My LIbs/Strings
-BuildDirectory: /home/marcelo/Documentos/C/My LIbs/Strings
+SourceDirectory: /home/marcelo/Documentos/C-Libs/Strings
+BuildDirectory: /home/marcelo/Documentos/C-Libs/Strings
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/marcelo/Documentos/C/My LIbs/Strings"
+ConfigureCommand: "/usr/bin/cmake" "/home/marcelo/Documentos/C-Libs/Strings"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

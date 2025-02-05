@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/marcelo/Documentos/C/My LIbs/Strings"
+CMAKE_SOURCE_DIR = /home/marcelo/Documentos/C-Libs/Strings
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/marcelo/Documentos/C/My LIbs/Strings"
+CMAKE_BINARY_DIR = /home/marcelo/Documentos/C-Libs/Strings
 
 # Utility rule file for NightlyBuild.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyBuild.dir/clean:
 .PHONY : CMakeFiles/NightlyBuild.dir/clean
 
 CMakeFiles/NightlyBuild.dir/depend:
-	cd "/home/marcelo/Documentos/C/My LIbs/Strings" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings" "/home/marcelo/Documentos/C/My LIbs/Strings/CMakeFiles/NightlyBuild.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/marcelo/Documentos/C-Libs/Strings && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings /home/marcelo/Documentos/C-Libs/Strings/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyBuild.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/ListTest.dir/src/LinkedList.c.o: \
- /home/marcelo/Documentos/C/My\ LIbs/Linked\ List/src/LinkedList.c \
+ /home/marcelo/Documentos/C-Libs/Linked\ List/src/LinkedList.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,4 +43,4 @@ CMakeFiles/ListTest.dir/src/LinkedList.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/marcelo/Documentos/C/My\ LIbs/Linked\ List/libs/Strings.h
+ /home/marcelo/Documentos/C-Libs/Linked\ List/libs/Strings.h

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/marcelo/Documentos/C/My LIbs/Files/src/Files.c" "CMakeFiles/TestFiles.dir/src/Files.c.o" "gcc" "CMakeFiles/TestFiles.dir/src/Files.c.o.d"
-  "/home/marcelo/Documentos/C/My LIbs/Files/tests/tests.c" "CMakeFiles/TestFiles.dir/tests/tests.c.o" "gcc" "CMakeFiles/TestFiles.dir/tests/tests.c.o.d"
+  "/home/marcelo/Documentos/C-Libs/Files/src/Files.c" "CMakeFiles/TestFiles.dir/src/Files.c.o" "gcc" "CMakeFiles/TestFiles.dir/src/Files.c.o.d"
+  "/home/marcelo/Documentos/C-Libs/Files/tests/tests.c" "CMakeFiles/TestFiles.dir/tests/tests.c.o" "gcc" "CMakeFiles/TestFiles.dir/tests/tests.c.o.d"
   )
 
 # Targets to which this target links.

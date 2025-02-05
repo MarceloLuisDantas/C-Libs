@@ -1,4 +1,4 @@
-# Install script for directory: /home/marcelo/Documentos/C/My LIbs/Strings
+# Install script for directory: /home/marcelo/Documentos/C-Libs/Strings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/marcelo/Documentos/C/My LIbs/Strings/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/marcelo/Documentos/C-Libs/Strings/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

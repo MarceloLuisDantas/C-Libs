@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/marcelo/Documentos/C/My LIbs/Linked List/libs"
+C_INCLUDES = -I"/home/marcelo/Documentos/C-Libs/Linked List/libs"
 
 C_FLAGS = -Wall -Werror
 

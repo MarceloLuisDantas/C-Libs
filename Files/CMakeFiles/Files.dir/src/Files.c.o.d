@@ -1,5 +1,5 @@
 CMakeFiles/Files.dir/src/Files.c.o: \
- /home/marcelo/Documentos/C/My\ LIbs/Files/src/Files.c \
+ /home/marcelo/Documentos/C-Libs/Files/src/Files.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -55,6 +55,6 @@ CMakeFiles/Files.dir/src/Files.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/marcelo/Documentos/C/My\ LIbs/Files/libs/Strings.h \
- /home/marcelo/Documentos/C/My\ LIbs/Files/libs/LinkedList.h \
- /home/marcelo/Documentos/C/My\ LIbs/Files/libs/Strings.h
+ /home/marcelo/Documentos/C-Libs/Files/libs/Strings.h \
+ /home/marcelo/Documentos/C-Libs/Files/libs/LinkedList.h \
+ /home/marcelo/Documentos/C-Libs/Files/libs/Strings.h

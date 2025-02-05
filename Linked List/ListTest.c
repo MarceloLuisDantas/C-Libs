@@ -273,6 +273,42 @@ int test_to_array() {
     return TRUE;
 }
 
+int test_contains() {
+    LinkedList *l = newLinkedList();
+    int cn = contains(l, CStringToString("teste 0"));
+    if (cn != -1) {
+        printf("Cn should be -1\n");
+        return FALSE;
+    }
+
+    add(l, "teste 0");
+    add(l, "teste 1");
+    add(l, "teste 2");
+    add(l, "teste 3");
+    add(l, "teste 4");
+    add(l, "teste 5");
+
+    int c = contains(l, CStringToString("teste 0"));
+    if (c != 0) {
+        printf("C should be 0\n");
+        return FALSE;
+    }
+
+    int c2 = contains(l, CStringToString("teste 5"));
+    if (c2 != 5) {
+        printf("C2 should be 5\n");
+        return FALSE;
+    }
+
+    int c3 = contains(l, CStringToString("teste -1"));
+    if (c3 != -1) {
+        printf("C3 should be -1\n");
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 int main() {
     printf("==================== RUNNING TESTES ====================\n");
     runTest(&test_create_ll, 1, "Create Linked List Test");
@@ -282,6 +318,7 @@ int main() {
     runTest(&test_delete_element, 5, "Delete element Test");
     runTest(&test_insert_element, 6, "Insert element Test");
     runTest(&test_to_array, 7, "To ArrayString Test");
+    runTest(&test_contains, 8, "Contains Test");
 
     return 0;
 }

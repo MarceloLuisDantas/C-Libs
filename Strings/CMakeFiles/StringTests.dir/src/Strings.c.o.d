@@ -1,5 +1,5 @@
 CMakeFiles/StringTests.dir/src/Strings.c.o: \
- /home/marcelo/Documentos/C/My\ LIbs/Strings/src/Strings.c \
+ /home/marcelo/Documentos/C-Libs/Strings/src/Strings.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -47,4 +47,7 @@ CMakeFiles/StringTests.dir/src/Strings.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h
