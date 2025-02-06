@@ -56,6 +56,10 @@ CMakeFiles/StringTests.dir/src/Strings.c.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
+ /usr/include/stdint.h
+ /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /usr/include/string.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
@@ -88,6 +92,11 @@ CMakeFiles/StringTests.dir/tests/tests.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
+ /usr/include/stdint.h
+ /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /home/marcelo/Documentos/C-Libs/Strings/src/Strings.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
@@ -97,7 +106,6 @@ CMakeFiles/StringTests.dir/tests/tests.c.o
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/endian.h
  /usr/include/x86_64-linux-gnu/bits/endian.h
  /usr/include/x86_64-linux-gnu/bits/endianness.h

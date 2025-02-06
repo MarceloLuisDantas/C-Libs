@@ -88,4 +88,9 @@ char *StringToCString(String *s);
 */
 int ascontains(ArrayString *as, String *s);
 
+/*  Returns the int value from a String.
+    err wil be NULL if the value is valid
+ */
+int StringToInt(String *s, char **err);
+
 #endif

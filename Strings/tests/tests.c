@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 #include "../src/Strings.h"
 
 #define TRUE 1
@@ -392,7 +393,7 @@ int array_to_string() {
 int contains_test() {
     ArrayString *as = newArrayString(10);
 
-    int cn = contains(as, CStringToString("teste -1"));
+    int cn = ascontains(as, CStringToString("teste -1"));
     if (cn != -1) {
         printf("Cn should be -1\n");
         return FALSE;
@@ -405,21 +406,43 @@ int contains_test() {
     ASPush(as, CStringToString("teste 4"));
     ASPush(as, CStringToString("teste 5"));
 
-    int c = contains(as, CStringToString("teste 0"));
+    int c = ascontains(as, CStringToString("teste 0"));
     if (c != 0) {
         printf("C should be 0\n");
         return FALSE;
     }
 
-    int c2 = contains(as, CStringToString("teste 5"));
+    int c2 = ascontains(as, CStringToString("teste 5"));
     if (c2 != 5) {
         printf("C2 should be 5\n");
         return FALSE;
     }
 
-    int c3 = contains(as, CStringToString("teste -1"));
+    int c3 = ascontains(as, CStringToString("teste -1"));
     if (c3 != -1) {
         printf("C3 should be -1\n");
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
+int string_to_int_test() {
+    String *s = CStringToString("-9231");
+
+    char *endchar;
+    int16_t n = (int16_t)StringToInt(s, &endchar);
+    if (*endchar != '\0' || n != -9231) {
+        printf("Something goes wrong\n");
+        return FALSE;
+    }
+
+    String *es = CStringToString("ad11234");
+    
+    char *endchar2;
+    int16_t n2 = (int16_t)StringToInt(es, &endchar2);
+    if (*endchar2 == '\0' || n2 != 0) {
+        printf("Something goes wrong 2\n");
         return FALSE;
     }
 
@@ -440,6 +463,7 @@ int main() {
     runTest(&trim_test, 6, "Trim");
     runTest(&remove_spaces_test, 7, "Remove Spaces");
     runTest(&split_test, 8, "Split");
+    runTest(&string_to_int_test, 9, "String to Int");
 
     printf("\n");
     printf("RUNNING Array Strings Tests ================================\n");
@@ -447,4 +471,6 @@ int main() {
     runTest(&push, 2, "Push to Array String");
     runTest(&array_to_string, 3, "Array String to String");
     runTest(&contains_test, 4, "Contains Test");
+
+    return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
 
 #define TRUE 1
@@ -324,4 +325,14 @@ int ascontains(ArrayString *as, String *s) {
     }
 
     return -1;
+}
+
+/*  Returns the int value from a String.
+    err wil be NULL if the value is valid
+ */
+int StringToInt(String *s, char **endchar) {
+    int value = strtol(StringToCString(s), endchar, 10);
+    if (**endchar != '\0')
+        return 0;
+    return value;
 }
